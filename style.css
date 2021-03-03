@@ -1,0 +1,117 @@
+body {
+    background-color: hsl(185, 75%, 39%);
+    margin: 0px;
+    padding:0px;
+    width: 375px;
+    background-image: url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: 70px 350px;
+}
+.top {
+   margin-left: -220%;
+   margin-top: -180%;
+}
+.profile {
+    display: flexbox;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 18px;
+    background-color: white;
+    margin: auto;
+    margin-top: -50%;
+    margin-left: 4%;
+    width: 93%;
+    height: 375px;
+    border: transparent;
+    border-radius: 12px;
+}
+.card {
+    width: 100%;
+    margin-top: 0%;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+.display {
+    margin: auto;
+    border: 5px solid white;
+    margin-top: -55px;
+    border-radius: 50%;
+}
+.profile_name {
+    background-color: white;
+    border: transparent;
+    width: 33%;
+    margin: auto;
+    margin-top: 12px;
+}
+.age {
+    background-color: white;
+    border: transparent;
+    width: 10%;
+    color: silver;
+    float: right;
+    margin-top: -6%;
+    margin-right: 92px;
+    
+}
+.location {
+    background-color: white;
+    font-size: smaller;
+    border: transparent;
+    width: 33%;
+    color: silver;
+    margin: auto;
+    margin-top: 1%;
+    font-weight: 100
+}
+.followers {
+    background-color: white;
+    border: transparent;
+    margin-top: 2px;
+    border-top: 1px solid rgb(196, 194, 194);
+    width: 33%;
+    padding-left: 17px;
+    padding-top: 22px;
+}
+#followers {
+    color: rgb(184, 182, 182);
+    font-size: 13px;
+    font-weight: 100;
+    margin-top: 3%;
+}
+.likes {
+    background-color:white;
+    border: transparent;
+    border-top: 1px solid rgb(196, 194, 194);
+    width: 33%;
+    margin: auto;
+    margin-top: -18.5%;
+    padding-top: 22px;
+}
+#likes {
+    color:rgb(184, 182, 182);
+    font-size: 13px;
+    font-weight: 100;
+    margin-top: 3%;
+}
+.photos {
+    background-color: white;
+    border: transparent;
+    width: 33%;
+    float: right;
+    border-top: 1px solid rgb(196, 194, 194);
+    padding-right: 17px;
+    margin-top: -18.5%;
+    padding-top: 22px;
+}
+#photos {
+    color: rgb(184, 182, 182);
+    font-size: 13px;
+    font-weight: 100;
+    margin-top: 3px;
+}
+.footer {
+    margin-top: 40px;
+    font-size: 11px;
+    text-align: center;
+}
